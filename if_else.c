@@ -3,7 +3,7 @@ int main() {
     int value,first_div,second_div,third_div,four_div;
     printf ("Please enter a 4-digit positive number: ");
     scanf ("%d", &value);
-    if (value >= 999 && value <= 9999) {
+    if (value >= 1000 && value <= 9999) {
     first_div = value % 10;
     value = value / 10;
     second_div = value % 10;
